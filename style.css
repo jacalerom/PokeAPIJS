@@ -1,0 +1,98 @@
+body {
+    font-family: sans-serif;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+h1 {
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    -webkit-text-stroke: 1px black;
+}
+
+.cardsCont {
+    width: 600px;
+    display: flex;
+    height: 500px;
+    margin: 30px 0;
+}
+
+.cardsCont > div {
+    width: 300px;
+    text-align: center;
+}
+
+.appContainer {
+    width: 600px;
+    margin: auto;
+}
+
+
+p::first-letter, h3::first-letter {
+    text-transform: capitalize;
+}
+
+p {
+    font-weight: bold;
+}
+
+.buttonsCont {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+button {
+    border-radius: 10px;
+    padding: 8px;
+    margin: 0 10px;
+    font-size: 1.1em;
+    font-weight: bold;
+    outline: none;
+    border: none;
+}
+
+#fightBtn {
+    color: white;
+    background-color: red;
+}
+
+#startBtn {
+    color: white;
+    background-color: tomato;
+}
+
+.battleHistory {
+    margin: auto;
+    color: rgb(31, 78, 207);
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+img {
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.pokeCard {
+    border-radius: 10px;
+    background-color: lightgray;
+    box-shadow: -1px 1px 5px 5px rgba(161, 199, 212, 0.582);
+    margin: 10px;
+    border: 1px solid rgb(156, 215, 235);
+}
+
+.pokeCard:hover {
+    background-color: rgba(145, 204, 223, 0.788);
+    color: white;
+    border: 1px solid rgb(151, 218, 240);
+    box-shadow: 0 0 10px 10px rgba(132, 184, 201, 0.678);
+}
