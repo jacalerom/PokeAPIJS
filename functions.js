@@ -59,7 +59,7 @@ export const displayPokemonData = async (data) => {
     pokeContainer.appendChild(hp);
     pokeContainer.appendChild(moves);
 
-    let randomMove = Math.floor(Math.random(data.moves.length));
+    let randomMove = Math.floor(Math.random()*data.moves.length);
 
     const move = document.createElement('p');
     const chosenMove = data.moves[randomMove];
